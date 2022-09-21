@@ -1,0 +1,11 @@
+backtrace
+build/
+core
+foo.*
+lib/
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+seg_wrapper.sh
+src/test.ts
+yarn.lock
