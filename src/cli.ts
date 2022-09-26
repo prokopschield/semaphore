@@ -9,10 +9,10 @@ const { name, state } = argv.expect([ 'name', 'state' ]);
 function printIfFalse(success: boolean)
 {
     if (!success) {
-        console.error("failed")
+        console.error("failed");
     }
 
-    return !success
+    return !success;
 }
 
 function main()
