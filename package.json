@@ -1,35 +1,35 @@
 {
-	"name": "@prokopschield/semaphore",
-	"description": "UNIX semaphores for Node.JS",
-	"version": "0.1.0-1",
-	"main": "lib/index.js",
-	"bin": {
-		"semaphore": "lib/cli.js"
-	},
-	"scripts": {
-		"build": "tsc && node lib/build",
-		"install": "yarn build"
-	},
-	"author": "Prokop Schield",
-	"dependencies": {
-		"@prokopschield/argv": "^0.1.2"
-	},
-	"devDependencies": {
-		"@types/node": "^16",
-		"doge-json": "^1.2.8"
-	},
-	"keywords": [],
-	"license": "GPL-3.0-or-later",
-	"types": "./lib/index.d.ts",
-	"directories": {
-		"lib": "lib"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/prokopschield/semaphore.git"
-	},
-	"bugs": {
-		"url": "https://github.com/prokopschield/semaphore/issues"
-	},
-	"homepage": "https://github.com/prokopschield/semaphore#readme"
+    "name": "@prokopschield/semaphore",
+    "description": "UNIX semaphores for Node.JS",
+    "version": "0.1.0-1",
+    "main": "lib/index.js",
+    "bin": {
+        "semaphore": "lib/cli.js"
+    },
+    "scripts": {
+        "build": "tsc && node lib/build",
+        "install": "yarn build"
+    },
+    "author": "Prokop Schield",
+    "dependencies": {
+        "@prokopschield/argv": "^0.1.2"
+    },
+    "devDependencies": {
+        "@types/node": "^16",
+        "doge-json": "^1.2.8"
+    },
+    "keywords": [],
+    "license": "GPL-3.0-or-later",
+    "types": "./lib/index.d.ts",
+    "directories": {
+        "lib": "lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/prokopschield/semaphore.git"
+    },
+    "bugs": {
+        "url": "https://github.com/prokopschield/semaphore/issues"
+    },
+    "homepage": "https://github.com/prokopschield/semaphore#readme"
 }
