@@ -12,7 +12,9 @@ write("./binding.gyp", {
     ],
 });
 
-process.stdout.write(execSync("clang-format -i --style=WebKit src/*"));
+if (process.argv.includes("fmt")) {
+    process.stdout.write(execSync("clang-format -i --style=WebKit src/*"));
+}
 
 if (!fs.existsSync("./build")) {
     process.stdout.write(execSync("node-gyp configure"));
