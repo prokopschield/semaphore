@@ -1,13 +1,13 @@
-import { execSync } from "child_process";
-import { write } from "doge-json";
+import {execSync} from "child_process";
+import {write} from "doge-json";
 import fs from "fs";
 
 write("./binding.gyp", {
-    targets: [
+    targets : [
         {
-            target_name: "semaphore",
-            sources: ["src/semaphore.cc"],
-            libraries: [],
+            target_name : "semaphore",
+            sources : [ "src/semaphore.cc" ],
+            libraries : [],
         },
     ],
 });
