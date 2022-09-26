@@ -1,4 +1,4 @@
-const internal = require('../build/Release/semaphore');
+const internal = require("../build/Release/semaphore");
 
 export {internal};
 
