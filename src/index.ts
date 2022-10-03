@@ -7,7 +7,7 @@ export class Semaphore {
 
     constructor(name: string, open = true)
     {
-        this.semaphore_pointer = internal.sem_open(name, Number(!open));
+        this.semaphore_pointer = internal.sem_open(name, Number(open));
     }
 
     /**
